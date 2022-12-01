@@ -4,6 +4,7 @@
 #include <math.h>
 #include <string.h>
 
+//Макросы:
 #define THREADS_LIMIT   8      // максимальное количество потоков по умолчанию (оптимальное)
 #define STR_SIZE        128    // длина строки
 
