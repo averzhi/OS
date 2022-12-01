@@ -17,6 +17,8 @@ void batcher_merge(char **arr, int l, int m, int r);    // четно-нечет
 void* merge_sort_parallel(void *args);                  // обертка над сортировкой слиянием для выполнения в отдельном потоке
 void merge_sort(char **arr, int l, int r);              // сортировка слиянием
 
+//две звездочки - это указатель на указатель
+
 int thread_count = 0;                   // количество работающих потоков
 pthread_mutex_t thread_count_locker;    // для корректного взаимодействия со счетчиком потоков
 int threads_limit = THREADS_LIMIT;      // максимальное количество потоков
