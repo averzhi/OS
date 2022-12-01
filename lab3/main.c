@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     /* Получение ограничения по потокам */
     if(argc == 3){
         if(strcmp(argv[1], "-t") == 0){
-            threads_limit = atoi(argv[2]);
+            threads_limit = atoi(argv[2]);  //int atoi(const char *str) Функция atoi() конвертирует строку, на которую указывает параметр str, в величину типа int (stdlib.h)
         }
     }
     /* Инициализация */
