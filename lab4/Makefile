@@ -1,5 +1,2 @@
 all:
-	g++ task.cpp -pthread -o task
-	./task
-clean:
-	rm task
+	gcc -o main -std=c99 main.c -lpthread -O0 -lm
