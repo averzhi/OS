@@ -1,3 +1,0 @@
-gcc task.c -pthread -o task
-
- ./task
