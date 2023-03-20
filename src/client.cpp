@@ -151,4 +151,5 @@ int main() { // Объявление функции main
         std::cout << "Server will be turned off" << std::endl; // Вывод на экран сообщения
         exit(EXIT_SUCCESS); // Выход из программы с кодом успешного завершения
     }
+  }
 }
